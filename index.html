@@ -7,6 +7,9 @@
     <title>Convention Center</title>
     <!-- Custom Style -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500;600;700&family=Yeseva+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -41,8 +44,50 @@
     </header>
     <main>
         <!-- Slider -->
-        <section>
-            
+        <section class="carousel-area">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/banner.png" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="text-white fs-1">The perfect venue <br> for your 
+                            next event</h2>
+                          <p class="text-white">Your most trusted event organiger.You will enjoy your dream ceremony in here</p>
+                          <button type="button" class="btn btn-light btn-lg px-5 text-info fs-6">Book Now</button>
+                          
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/Hall.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h2 class="text-white fs-1">Cristal Ballroom</h2>
+                      <p class="text-white">We gathered your heavenly wishesh in our Cristal Ballroom.</p>
+                      <button type="button" class="btn btn-light btn-lg px-5 text-info fs-6">Book Now</button>
+                    </div>
+                  </div>
+                  <div class="carousel-item ">
+                    <img src="images/party.jpg" class="d-block w-100 " alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                     <h2 class="text-white fs-1">gathering momentum</h2>
+                      <p class="text-white">Creat your remarkable memories and put togather your past and future plan</p>
+                      <button type="button" class="btn btn-light btn-lg px-5 text-info fs-6">Book Now</button>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
         </section>
     </main>
     <footer>

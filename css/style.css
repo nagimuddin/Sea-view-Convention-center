@@ -1,3 +1,8 @@
-boody{
-    background-color: #E5E5E5;
+.carousel-item{
+    height: 584px;
+}
+.carousel-item img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
