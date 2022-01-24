@@ -1,8 +1,29 @@
-.carousel-item{
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-item {
     height: 584px;
 }
-.carousel-item img{
+
+.carousel-item img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+/* Pricing Section */
+.card-body ul {
+    margin: 0;
+    padding: 0;
+}
+
+.card-body li {
+    list-style: none;
+}
+.card-body a{
+    background: rgba(244, 150, 209, 0.1);
+    display: block;
 }
